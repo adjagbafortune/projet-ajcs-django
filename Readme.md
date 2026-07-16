@@ -1,4 +1,4 @@
-<h3 align="center" id="title">PROJET_WEB_AJCS – Module d’authentification Django <br>AJC'S Creativity (Septembre → Décembre 2024)</h3>
+<h3 align="center" id="title">PROJET_WEB_AJCS – Module d’authentification Django <br>AJC'S Creativity (Septembre - Décembre 2024)</h3>
 
 <p id="description">Développement d'une Preuve de Concept (PoC) sous forme de module complet d’authentification, initiée en R&D pour répondre aux besoins d'acquisition client. <br>
 Objectif : Prototyper et déployer un système d’inscription et de connexion simple, sécurisé et fiable, prêt à être intégré dans une future architecture web d'entreprise.</p>
@@ -75,6 +75,6 @@ http://localhost:8000/
 https://www.figma.com/design/8V28NVN5XROlyAwgwrMkTL/PROJET_WEB_AJC
   
 
-<h2>🛡️ License</h2>
+<h2>License</h2>
 
 Projet soumis à la [License MIT](LICENSE)
