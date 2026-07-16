@@ -1,16 +1,16 @@
-<h3 align="center" id="title">PROJET_WEB_AJCS – Module d’authentification Django. <br>Ajc's Creativity (Septembre → Décembre 2024)</h3>
+<h3 align="center" id="title">PROJET_WEB_AJCS – Module d’authentification Django <br>AJC'S Creativity (Septembre → Décembre 2024)</h3>
 
-<p id="description">Développement d'un module complet d’authentification pour un futur site web d'entreprise.
-Objectif : proposer un système d’inscription et de connexion simple, sécurisé et fiable afin d’améliorer l’expérience utilisateur.</p>
+<p id="description">Développement d'une Preuve de Concept (PoC) sous forme de module complet d’authentification, initiée en R&D pour répondre aux besoins d'acquisition client. <br>
+Objectif : Prototyper et déployer un système d’inscription et de connexion simple, sécurisé et fiable, prêt à être intégré dans une future architecture web d'entreprise.</p>
 
-<h2>Ma contribution</h2>
+<h2>Ma contribution technique</h2>
 
 *   Conception du prototype desktop sur Figma (structure et flux utilisateur).
 *   Mise en place complète du système d’authentification Django (inscription, connexion, déconnexion).
 *   Personnalisation du modèle utilisateur (CustomUser).
-*   Configuration de MySQL + Django ORM.
+*   Configuration de la base de données MySQL couplée à l'ORM Django.
 *   Dockerisation du projet (environnement Python + base MySQL).
-*   Mise en place des vues, templates et tests unitaires.
+*   Mise en place des vues, templates et tests unitaires de validation.
 
 <h3>Technologies utilisées dans ce projet :</h3>
 
@@ -23,7 +23,7 @@ Objectif : proposer un système d’inscription et de connexion simple, sécuris
 
 <h2>Architecture du module</h2>
 
-```
+```text
 app_auth/
  ├── models.py        → CustomUser
  ├── forms.py         → Formulaire d’inscription
@@ -34,7 +34,6 @@ app_auth/
        ├── connexion.html
        └── accueil.html
 ```
-
 <h2>Aperçu</h2>
 
 prototype Figma (Accueil)
