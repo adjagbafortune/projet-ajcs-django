@@ -63,9 +63,9 @@ http://localhost:8000/
 <h2>Fonctionnalités principales</h2>
 
 *   Création de compte utilisateur (CustomUser)
-*   Connexion sécurisée (hashing Django)
+*   Connexion sécurisée (hashing natif Django)
 *   Déconnexion
-*   Protection CSRF
+*   Protection CSRF intégrée
 *   Tests unitaires pour la création de compte
 
 
